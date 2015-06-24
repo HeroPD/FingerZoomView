@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3ADC3811B3A80C600453031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC3801B3A80C600453031 /* main.m */; };
+		C3ADC3841B3A80C600453031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC3831B3A80C600453031 /* AppDelegate.m */; };
+		C3ADC3871B3A80C600453031 /* FingerZoomView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC3851B3A80C600453031 /* FingerZoomView.xcdatamodeld */; };
+		C3ADC38A1B3A80C600453031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC3891B3A80C600453031 /* ViewController.m */; };
+		C3ADC38D1B3A80C600453031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC38B1B3A80C600453031 /* Main.storyboard */; };
+		C3ADC38F1B3A80C600453031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC38E1B3A80C600453031 /* Images.xcassets */; };
+		C3ADC3921B3A80C600453031 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC3901B3A80C600453031 /* LaunchScreen.xib */; };
+		C3ADC39E1B3A80C600453031 /* FingerZoomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC39D1B3A80C600453031 /* FingerZoomViewTests.m */; };
+		C3ADC3A91B3A839200453031 /* FingerZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC3A81B3A839200453031 /* FingerZoomView.m */; };
+		C3ADC3AC1B3A965E00453031 /* Mickey_Mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC3AB1B3A965E00453031 /* Mickey_Mouse.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3ADC3981B3A80C600453031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3ADC3731B3A80C600453031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ADC37A1B3A80C600453031;
+			remoteInfo = FingerZoomView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3ADC37B1B3A80C600453031 /* FingerZoomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerZoomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ADC37F1B3A80C600453031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ADC3801B3A80C600453031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3ADC3821B3A80C600453031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3ADC3831B3A80C600453031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3ADC3861B3A80C600453031 /* FingerZoomView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FingerZoomView.xcdatamodel; sourceTree = "<group>"; };
+		C3ADC3881B3A80C600453031 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3ADC3891B3A80C600453031 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3ADC38C1B3A80C600453031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3ADC38E1B3A80C600453031 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3ADC3911B3A80C600453031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C3ADC3971B3A80C600453031 /* FingerZoomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerZoomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ADC39C1B3A80C600453031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ADC39D1B3A80C600453031 /* FingerZoomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerZoomViewTests.m; sourceTree = "<group>"; };
+		C3ADC3A71B3A839200453031 /* FingerZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerZoomView.h; sourceTree = "<group>"; };
+		C3ADC3A81B3A839200453031 /* FingerZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerZoomView.m; sourceTree = "<group>"; };
+		C3ADC3AB1B3A965E00453031 /* Mickey_Mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mickey_Mouse.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3ADC3781B3A80C600453031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ADC3941B3A80C600453031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3ADC3721B3A80C600453031 = {
+			isa = PBXGroup;
+			children = (
+				C3ADC37D1B3A80C600453031 /* FingerZoomView */,
+				C3ADC39A1B3A80C600453031 /* FingerZoomViewTests */,
+				C3ADC37C1B3A80C600453031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3ADC37C1B3A80C600453031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADC37B1B3A80C600453031 /* FingerZoomView.app */,
+				C3ADC3971B3A80C600453031 /* FingerZoomViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3ADC37D1B3A80C600453031 /* FingerZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADC3AA1B3A95AD00453031 /* resource */,
+				C3ADC3821B3A80C600453031 /* AppDelegate.h */,
+				C3ADC3831B3A80C600453031 /* AppDelegate.m */,
+				C3ADC3881B3A80C600453031 /* ViewController.h */,
+				C3ADC3891B3A80C600453031 /* ViewController.m */,
+				C3ADC38B1B3A80C600453031 /* Main.storyboard */,
+				C3ADC38E1B3A80C600453031 /* Images.xcassets */,
+				C3ADC3901B3A80C600453031 /* LaunchScreen.xib */,
+				C3ADC3851B3A80C600453031 /* FingerZoomView.xcdatamodeld */,
+				C3ADC37E1B3A80C600453031 /* Supporting Files */,
+				C3ADC3A71B3A839200453031 /* FingerZoomView.h */,
+				C3ADC3A81B3A839200453031 /* FingerZoomView.m */,
+			);
+			path = FingerZoomView;
+			sourceTree = "<group>";
+		};
+		C3ADC37E1B3A80C600453031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADC37F1B3A80C600453031 /* Info.plist */,
+				C3ADC3801B3A80C600453031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3ADC39A1B3A80C600453031 /* FingerZoomViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADC39D1B3A80C600453031 /* FingerZoomViewTests.m */,
+				C3ADC39B1B3A80C600453031 /* Supporting Files */,
+			);
+			path = FingerZoomViewTests;
+			sourceTree = "<group>";
+		};
+		C3ADC39B1B3A80C600453031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADC39C1B3A80C600453031 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3ADC3AA1B3A95AD00453031 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADC3AB1B3A965E00453031 /* Mickey_Mouse.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3ADC37A1B3A80C600453031 /* FingerZoomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ADC3A11B3A80C600453031 /* Build configuration list for PBXNativeTarget "FingerZoomView" */;
+			buildPhases = (
+				C3ADC3771B3A80C600453031 /* Sources */,
+				C3ADC3781B3A80C600453031 /* Frameworks */,
+				C3ADC3791B3A80C600453031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerZoomView;
+			productName = FingerZoomView;
+			productReference = C3ADC37B1B3A80C600453031 /* FingerZoomView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3ADC3961B3A80C600453031 /* FingerZoomViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ADC3A41B3A80C600453031 /* Build configuration list for PBXNativeTarget "FingerZoomViewTests" */;
+			buildPhases = (
+				C3ADC3931B3A80C600453031 /* Sources */,
+				C3ADC3941B3A80C600453031 /* Frameworks */,
+				C3ADC3951B3A80C600453031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3ADC3991B3A80C600453031 /* PBXTargetDependency */,
+			);
+			name = FingerZoomViewTests;
+			productName = FingerZoomViewTests;
+			productReference = C3ADC3971B3A80C600453031 /* FingerZoomViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3ADC3731B3A80C600453031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Showtime;
+				TargetAttributes = {
+					C3ADC37A1B3A80C600453031 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C3ADC3961B3A80C600453031 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C3ADC37A1B3A80C600453031;
+					};
+				};
+			};
+			buildConfigurationList = C3ADC3761B3A80C600453031 /* Build configuration list for PBXProject "FingerZoomView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3ADC3721B3A80C600453031;
+			productRefGroup = C3ADC37C1B3A80C600453031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3ADC37A1B3A80C600453031 /* FingerZoomView */,
+				C3ADC3961B3A80C600453031 /* FingerZoomViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3ADC3791B3A80C600453031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ADC38D1B3A80C600453031 /* Main.storyboard in Resources */,
+				C3ADC3AC1B3A965E00453031 /* Mickey_Mouse.png in Resources */,
+				C3ADC3921B3A80C600453031 /* LaunchScreen.xib in Resources */,
+				C3ADC38F1B3A80C600453031 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ADC3951B3A80C600453031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3ADC3771B3A80C600453031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ADC3841B3A80C600453031 /* AppDelegate.m in Sources */,
+				C3ADC3871B3A80C600453031 /* FingerZoomView.xcdatamodeld in Sources */,
+				C3ADC3A91B3A839200453031 /* FingerZoomView.m in Sources */,
+				C3ADC38A1B3A80C600453031 /* ViewController.m in Sources */,
+				C3ADC3811B3A80C600453031 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ADC3931B3A80C600453031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ADC39E1B3A80C600453031 /* FingerZoomViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3ADC3991B3A80C600453031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ADC37A1B3A80C600453031 /* FingerZoomView */;
+			targetProxy = C3ADC3981B3A80C600453031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3ADC38B1B3A80C600453031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ADC38C1B3A80C600453031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3ADC3901B3A80C600453031 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ADC3911B3A80C600453031 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3ADC39F1B3A80C600453031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3ADC3A01B3A80C600453031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3ADC3A21B3A80C600453031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerZoomView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3ADC3A31B3A80C600453031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerZoomView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3ADC3A51B3A80C600453031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerZoomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerZoomView.app/FingerZoomView";
+			};
+			name = Debug;
+		};
+		C3ADC3A61B3A80C600453031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerZoomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerZoomView.app/FingerZoomView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3ADC3761B3A80C600453031 /* Build configuration list for PBXProject "FingerZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ADC39F1B3A80C600453031 /* Debug */,
+				C3ADC3A01B3A80C600453031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ADC3A11B3A80C600453031 /* Build configuration list for PBXNativeTarget "FingerZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ADC3A21B3A80C600453031 /* Debug */,
+				C3ADC3A31B3A80C600453031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3ADC3A41B3A80C600453031 /* Build configuration list for PBXNativeTarget "FingerZoomViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ADC3A51B3A80C600453031 /* Debug */,
+				C3ADC3A61B3A80C600453031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3ADC3851B3A80C600453031 /* FingerZoomView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3ADC3861B3A80C600453031 /* FingerZoomView.xcdatamodel */,
+			);
+			currentVersion = C3ADC3861B3A80C600453031 /* FingerZoomView.xcdatamodel */;
+			path = FingerZoomView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3ADC3731B3A80C600453031 /* Project object */;
+}
