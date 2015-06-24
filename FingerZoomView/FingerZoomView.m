@@ -120,16 +120,16 @@
     {
         //if needed do some initial setup or init of views here
         zoomView.hidden = NO;
-        NSLog(@"start");
+        // NSLog(@"start");
     }
     else if(gestureRecognizer.state == UIGestureRecognizerStateChanged)
     {
-        NSLog(@"dragging");
+        // NSLog(@"dragging");
     }
     else if(gestureRecognizer.state == UIGestureRecognizerStateEnded)
     {
         //else do cleanup
-        NSLog(@"end");
+        // NSLog(@"end");
         zoomView.hidden = YES;
         return;
     }
